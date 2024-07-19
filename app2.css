@@ -1,0 +1,32 @@
+ul.menu, ol {
+    text-align: center;
+}
+
+li {
+    color: red;
+    background-color:blueviolet;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 50px;
+    display: inline-block; 
+    list-style-type: none;
+}
+
+li2 {
+    color: red;
+    background-color:blueviolet;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+
+
+a {
+    color:rgb(255,255 , 255);
+    text-decoration: none;
+}
+
+button.btn.btn-primary {
+    background: darkblue !;
+}
