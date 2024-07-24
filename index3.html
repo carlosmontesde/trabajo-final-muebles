@@ -11,6 +11,29 @@
 
   <link rel="stylesheet" href="app.css">
 
+<style>
+  @media screen and (min-width: 1024px) {
+    body {
+      display: grid;
+      grid-template-columns: 20% 40% auto;
+      grid-template-columns: repeat(3,1 fr);
+      grid-template-areas:
+        "header   header  header  "
+        "aside    titulo  titulo  "
+        "aside    seccion-1   seccion-2"
+        "aside    articulos   articulos"
+        "footer   footer      footer";
+        min-height: 100vh;
+        gap: 4px;
+        margin: 0;
+        padding: 0;
+    }
+  }
+    
+</style>
+
+
+
 
 
 </head>
